@@ -1,0 +1,518 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/* css for header */
+.header
+{
+    height: 90px;
+    width: 100%;
+    /* background-color: #026abd; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container
+{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+}
+.header_container
+{
+    justify-content:space-between;
+}
+.logo
+{
+    width:5%;
+    height: 90px;
+    /* background-color: yellow; */
+    margin-top: 9px;
+    margin-right:7px;
+    margin-left:20px;
+}
+.title
+{
+    width:20%;
+    height: 90px;
+    /* background-color: yellow; */
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    text-align:justify;
+    font-weight: bold;
+    color:white;
+    line-height: 90px;
+}
+.nav
+{
+    height: 90px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    font-weight: bold;
+}
+.nav-item
+{
+    width:100%;
+    height:90px;
+    /* background-color: grey; */
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    line-height: 90px;
+    color: white;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.nav-item:hover
+{
+    background-color:white;
+    color:rgb(0, 0, 0);
+}
+
+
+
+.banner
+{
+    height:95vh;
+    width:100%;
+    background-color:grey;
+    background-image: url('./images/KITS-Warangal.png');
+}
+.overlay
+{
+    height:95vh;
+    width:100%;
+    background-color:#000000d9;
+    display:flex;
+    align-items: center;
+}
+.banner_text
+{
+    height: 250px;
+    width:40%;
+    background-color:rgba(53, 145, 250, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner_title
+{
+    font-size: 50px;
+    color:white;
+}
+.banner_desc
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.padd
+{
+    padding: 30px;
+    /* background-color:grey; */
+}
+.banner_button
+{
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color:transparent;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.banner_button:hover
+{
+    background-color: white;
+    color: blue;
+}
+
+
+
+.services
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(206 206 206);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.services_container
+{
+    margin-top: 50px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.service
+{
+    height:400px;
+    width:45%;
+    /* background-color: #026abd; */
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.service_img
+{
+    height: 100%;
+    width: 55%;
+    /* background-color:rgb(214, 214, 214); */
+    overflow:hidden;
+}
+.service_details
+{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.service_padd
+{
+    padding:20px;
+    font-size: 10px;
+}
+.service_button
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color:#026abd;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.service_button:hover
+{
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+}
+.service_title
+{
+    margin-bottom: 30px;
+}
+.service_desc
+{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#026abd;
+    display:flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-weight: bold;
+}
+.about_container
+{
+    margin-top: 30px;
+    /* line-height: 25px; */
+    text-align: justify;
+    display: inline;
+}
+.start_text
+{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction: column;
+    color: #026abd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-weight: bold;
+}
+.sample
+{
+    text-align: justify;
+    margin-top: 30px;
+    color: black;
+}
+.about_desc
+{
+    color:grey;
+}
+
+
+
+.highlight
+{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#026abd;
+    display:flex;
+    justify-content: center;
+}
+.highlight_container
+{
+    justify-content: space-between;
+}
+.high-ele
+{
+    width: 20%;
+    height: 200px;
+    background-color: rgba(4, 28, 107, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    color:white
+}
+.high_title
+{
+    font-size: 60px;
+}
+.high_desc
+{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+
+.quote
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quote_title
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.quote_container
+{
+    flex-direction:column;
+    align-items: center;
+}
+.quote_button
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color:#026abd;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.quote_button:hover
+{
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.portfolio
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #026abd;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.portfolio_container
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.project
+{
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    display: flex;
+}
+.project1
+{
+    background-image:url('https://media.istockphoto.com/vectors/creation-responsive-internet-website-for-multiple-platforms-building-vector-id1058262630?k=6&m=1058262630&s=612x612&w=0&h=E-wt8xHHdXxB9gQWd4fJarvztZc3Z144zGr9126CPBU=');
+    background-size:cover;
+}
+.project2
+{
+    background-image:url('https://images.shiksha.com/mediadata/images/articles/1566209707phpxBewdN.jpeg');'
+    background-size:cover;
+    align-items: flex-end;
+}
+.project3
+{
+    background-image:url('https://iea.imgix.net/1f05e7ce-3c0d-433c-a473-6525d97c34d0/shutterstock_210379843.jpg?auto=compress%2Cformat&fit=min&q=80&rect=468%2C0%2C3744%2C3744');
+    background-size:cover;
+}
+.project4
+{
+    background-image:url('https://roboticsandautomationnews.com/wp-content/uploads/2019/05/electric-vehicle-charging-station.jpg');
+    background-size:cover;
+    align-items: flex-end;
+}
+.project5
+{
+    background-image:url('https://www.ecmag.com/sites/default/files/solar-energy-city.jpg');
+    background-size:cover;
+}
+.project6
+{
+    background-image:url('https://kddi-h.assetsadobe3.com/is/image/content/dam/au-com/mobile/mb_img_25.jpg?scl=1');
+    background-size:cover;
+    align-items: flex-end;
+}
+.project7
+{
+    background-image:url('https://images.idgesg.net/images/article/2019/02/iot_internet_of_things_by_jackie_niam_gettyimages-996958260_2400x1600-100788446-large.jpg');
+    background-size:cover;
+}
+.project8
+{
+    background-image:url('https://www.adobe.com/express/create/photo-collage/media_1e44e705240fd0a4f2c4f446c3a98ae75d9dd4ad5.png?width=2000&format=webply&optimize=medium');
+    background-size:cover;
+    align-items: flex-end;
+}
+.project_title
+{
+    color:white;
+    font-weight: bolder;
+    width:100%;
+    height: 80px;
+    text-indent: 30px;
+    line-height: 80px;
+    background-color: rgba(95, 95, 95, 0.7);
+    font-size: 20px;
+    cursor: pointer;
+}
+.project_title:hover
+{
+    height:200px;
+    transition:0.3s;
+}
+
+
+
+.footer
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: grey;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}.footer_child
+{
+    height: 300px;
+    width:30%;
+    /* background-color:rgb(255, 0, 0); */
+}
+.footer_child1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:white;
+}
+.footer_logo
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:white;
+}
+ul{
+    margin-top: 40px;
+}
+li
+{
+    list-style-type: none;
+    margin-bottom:10px;
+    color:white;
+}
+.first
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer_child_4
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_icon
+{
+    height: 40px;
+    width: 40px;
+    /* background-color: white; */
+    background-size: cover;
+}
+.social
+{
+    width: 65%;
+    justify-content: space-between;
+}
+.si1
+{
+    background-image: url('./images/317725_linkedin_social_icon.png');
+    
+}
+.si2
+{
+    background-image: url('./images/2609558_instagram_social\ media_social_icon.png');
+    
+}
+.si3
+{
+    background-image: url('./images/107117_square_facebook_icon.png');
+    
+}
+.si4
+{
+    background-image: url('./images/335929_google+_plus_red_social\ media_square_icon.png');
+    
+}
